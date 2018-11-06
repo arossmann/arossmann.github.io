@@ -2,3 +2,4 @@ name: Arne Rossmann
 markdown: kramdown
 collections:
   projects:
+    permalink: /projects/:path/
