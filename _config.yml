@@ -1,2 +1,4 @@
 name: Arne Rossmann
 markdown: kramdown
+collections:
+  projects:
