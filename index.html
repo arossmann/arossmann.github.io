@@ -2,19 +2,33 @@
 layout: default
 title: Arne Rosmann
 ---
-<div class="blurb">
-	<h1>Welcome</h1>
-	<p>This is the github page of Arne Rossmann</p>
-</div><!-- /.blurb -->
 
-<ul class="posts">
-
-  {% for project in site.projects %}
-    <li>
-      <h2>{{ project.name }}</h2>
-      <h3>{{ project.technology }}</h3>
-      <p>{{ project.content | markdownify }}</p>
-    </li>
-  {% endfor %}
-    
-</ul>
+<div class="row">
+	<div class="col-12">
+		<!-- Portfolio -->
+		<section>
+			<header class="major">
+				<h2>My Portfolio</h2>
+			</header>
+			<div class="row">
+				{% for project in site.projects %}
+				<div class="col-4 col-6-medium col-12-small">
+					<section class="box">
+						<a href="#" class="image featured"><img src="images/pic02.jpg" alt="" /></a>
+						<header>
+							<h3>{{ project.name }}</h3>
+							<h5>Technology: {{ project.technology }}</h5>
+						</header>
+						<p>{{ project.content | markdownify }}</p>
+						<footer>
+							<ul class="actions">
+								<li><a href="{{ project.link }}" class="button alt">Find out more</a></li>
+							</ul>
+						</footer>
+					</section>
+				</div>
+				{% endfor %}
+			</div>
+		</section>
+	</div>
+</div>
