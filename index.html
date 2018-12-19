@@ -8,13 +8,13 @@ title: Arne Rosmann
 		<!-- Portfolio -->
 		<section>
 			<header class="major">
-				<h2>My Portfolio</h2>
+				<h2>Some of my projects</h2>
 			</header>
 			<div class="row">
 				{% for project in site.projects %}
 				<div class="col-4 col-6-medium col-12-small">
 					<section class="box">
-						<a href="#" class="image featured"><img src="images/pic02.jpg" alt="" /></a>
+						<a href="#" class="image featured"><img src="{{ project.image }}" alt="" /></a>
 						<header>
 							<h3>{{ project.name }}</h3>
 							<h5>Technology: {{ project.technology }}</h5>
