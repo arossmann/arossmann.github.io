@@ -12,18 +12,28 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="/assets/css/main.css" />
 	</head>
-	<body>
-		{% include navigation.html %}
-		<div class="container">
-		
+	<body class="homepage is-preload">
+		<div id="page-wrapper">
+			<!-- Header -->
+			<section id="header">
+					{% include navigation.html %}
+			</section>
+
+			<!-- Main -->
+			<section id="main">
+				<div class="container">
 		{{ content }}
-		
-		</div><!-- /.container -->
-		<footer>
-    		<ul>
-        		<li><a href="mailto:arne.rossmann@gmail.com">email</a></li>
-        		<li><a href="https://github.com/arossmann">github.com/arossmann</a></li>
-			</ul>
-		</footer>
+							</div><!-- /.container -->
+			</section>
+			<!-- Footer -->
+			<section id="footer">
+				<div class="container">
+			   		<ul>
+			       		<li><a href="mailto:arne.rossmann@gmail.com">email</a></li>
+			       		<li><a href="https://github.com/arossmann">github.com/arossmann</a></li>
+					</ul>
+				</div>
+			</section>
+		</div>
 	</body>
 </html>
