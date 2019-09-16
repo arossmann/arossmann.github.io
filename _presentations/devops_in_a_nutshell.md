@@ -1,6 +1,7 @@
 ---
 title: DevOps in a Nutshell
 subtitle: A short an highlevel introduction into DevOps
+link: https://www.slideshare.net/ArneRossmann/devops-in-a-nutshell-143204355
 theme: black
 initialization:
   slideNumber: c/t
