@@ -11,70 +11,70 @@ initialization:
 
 # It started with the Toyota Production System ... <!-- .slide: data-background-image="https://hbr.org/resources/images/article_assets/2016/04/apr16-01-459923514-1200x675.jpg" -->
 
-§break
+§new
 
 # ... and shall be extended to IT and Software Development
 
-§break
+§new
 
 # ... to have software and releases without frustration
 
-§break
+§new
 
 # ... but there‘s the challenge: Developers want Change ...
 
-§break
+§new
 
 # ... Operations fears it ...
 
-§break
+§new
 
 # ... because Developers left the minefield ...
 
-§break
+§new
 
 # ... with DevOps we want to bring it together to have a smooth process of continuous releases
 
-§break
+§new
 
 # DevOps isn‘t only about tools, it‘s a lot about mindset and agile leadership
 
-§break
+§new
 
 # DevOps in a Nutshell
 
-§break
+§new
 
 # The Three Ways: The Principles Underpinning DevOps
 
-§break
+§new
 
 # Tools are an important part of DevOps ...
 
-§break
+§new
 
 # ... but the tool landscape is diverse ...
 
-§break
+§new
 
 # … and tools are not everything, PEOPLE are most important
 
-§break
+§new
 
 # … TRUST your whole DevOps team …
 
-§break
+§new
 
 # … RESPECT the “other side“ and their way of thinking …
 
-§break
+§new
 
 # ... We don‘t like blaming and finger pointing …
 
-§break
+§new
 
 # … Because FAILure is allowed, we learn from it!
 
-§break
+§new
 
 # Further Reading
