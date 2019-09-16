@@ -1,7 +1,7 @@
 ---
 title: DevOps in a Nutshell
 subtitle: A short an highlevel introduction into DevOps
-theme: default
+theme: black
 initialization:
   slideNumber: c/t
   transition: concave
