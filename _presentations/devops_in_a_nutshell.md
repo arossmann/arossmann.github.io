@@ -7,9 +7,9 @@ initialization:
   transition: concave
 ---
 
-<script src="https://use.fontawesome.com/bc0b7d3ca9.js"></script>
-
-# It started with the Toyota Production System ... <!-- .slide: data-background-image="https://hbr.org/resources/images/article_assets/2016/04/apr16-01-459923514-1200x675.jpg" -->
+<!--<script src="https://use.fontawesome.com/bc0b7d3ca9.js"></script>-->
+<!-- .slide: data-background-image="https://hbr.org/resources/images/article_assets/2016/04/apr16-01-459923514-1200x675.jpg" -->
+# It started with the Toyota Production System ...
 
 §new
 
