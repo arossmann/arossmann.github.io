@@ -1,7 +1,7 @@
 ---
 title: Intro into Reveal.JS
-subtitle: Slides with reveal.js & Jekyll for Github Pages.
-theme: sky
+subtitle: Just a test of Reveal.JS with GH Pages
+theme: simple
 initialization:
   slideNumber: c/t
   transition: concave
