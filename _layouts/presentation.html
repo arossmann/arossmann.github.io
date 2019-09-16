@@ -42,11 +42,11 @@
 				</section>
 				{% assign slides = content | split: "§new" %}
 				{% for slide in slides %}
-					<section>
+					<section data-markdown>
 					{% assign vslides = slide | split: "§break" %}
 					{% for vslide in vslides %}
 						{% assign slidecontent = vslide | split: "§notes" %}
-						<section>
+						<section data-markdown>
 							{{ slidecontent.first }}
 							{% if slidecontent.last != slidecontent.first %}
 								<aside class="notes">
