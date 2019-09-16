@@ -7,6 +7,25 @@ collections:
     title: Presentations
     output: true
     permalink: "/presentations/:path/"
+
+defaults:
+- scope:
+    path: ''
+    type: presentations
+  values:
+    layout: presentation
+- scope:
+    path: ''
+    type: projects
+  values:
+    layout: project
+- scope:
+    path: ''
+    type: pages
+  values:
+    layout: pages
+permalink: pretty
+
 author:
   name: Arne Rossmann
   twitter: arnerossmann
