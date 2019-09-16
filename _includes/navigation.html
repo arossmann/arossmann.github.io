@@ -1,9 +1,19 @@
 <!-- Nav -->
 <nav id="nav">
 	<ul>
-		<li><a href="/">Home</a></li>
+<!--
+	<li><a href="/">Home</a></li>
 		<li><a href="/about">About</a></li>
+		<li><a href="/slides">Slides</a></li>
 		<li><a href="https://www.linkedin.com/in/arnerossmann/">CV</a></li>
 		<li><a href="http://blog.arne-rossmann.de/">Blog</a></li>
+-->
+	{% for node in site.html_pages %}
+        <li class="nav-item{% if page.url == node.url %} active{% endif %}">
+          <a class="nav-link" href="{{ node.url }}" title="{{ node.title }}"><span class="fa-stack"><i class="fa fa-circle-thin fa-stack-2x"></i><i class="fa fa-{{ node.icon }} fa-stack-1x"></i></span><span class="d-none d-lg-inline"> {{ node.title }}</span></a>
+        </li>
+  {% endfor %}
+	<li><a href="https://www.linkedin.com/in/arnerossmann/">CV</a></li>
+	<li><a href="http://blog.arne-rossmann.de/">Blog</a></li>
 	</ul>
 </nav>
