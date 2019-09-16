@@ -3,3 +3,13 @@ markdown: kramdown
 collections:
   projects:
     permalink: /projects/:path/
+  presentations:
+    title: Presentations
+    output: true
+    permalink: "/presentations/:path/"
+author:
+  name: Arne Rossmann
+  twitter: arnerossmann
+  github: arossmann
+reveal:
+  version: 3.3.0
