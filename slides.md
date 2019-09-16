@@ -5,7 +5,7 @@ icon: slideshare
 ---
 
  {% for pres in site.presentations %}
- {% if pres.link != null}
+ {% if pres.link != null %} 
  <article class="media border p-2 m-2">
    <div class="media-body">
      <h4 class="mt-0">
