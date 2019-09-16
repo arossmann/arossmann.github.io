@@ -1,6 +1,7 @@
 ---
 layout: default
-title: Arne Rossmann
+title: About
+icon: user
 ---
 # About Me
 

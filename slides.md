@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Slides
+icon: sideshare
 ---
 
 {% for pres in site.presentations %}
