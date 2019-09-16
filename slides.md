@@ -15,8 +15,6 @@ description: some slides and presentation I prepared or gave.
     <p>
       {{ pres.subtitle }}
     </p>
-{% include post-detail.html %}
-
 
   </div>
 
