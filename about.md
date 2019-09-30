@@ -1,7 +1,7 @@
 ---
 layout: default
 title: About
-icon: user
+icon: fas fa-user
 ---
 # About Me
 

@@ -10,7 +10,7 @@
 -->
 	{% for node in site.html_pages %}
         <li class="nav-item{% if page.url == node.url %} active{% endif %}">
-          <a class="nav-link" href="{{ node.url }}" title="{{ node.title }}"><span class="fa-stack"><i class="fa fa-circle-thin fa-stack-2x"></i><i class="fa fa-{{ node.icon }} fa-stack-1x"></i></span><span class="d-none d-lg-inline"> {{ node.title }}</span></a>
+          <a class="nav-link" href="{{ node.url }}" title="{{ node.title }}"><span class="fa-stack"><i class="fa fa-circle-thin fa-stack-2x"></i><i class="{{ node.icon }} fa-stack-1x"></i></span><span class="d-none d-lg-inline"> {{ node.title }}</span></a>
         </li>
   {% endfor %}
 	<li>

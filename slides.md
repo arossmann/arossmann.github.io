@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Slides
-icon: slideshare
+icon: fab fa-slideshare
 ---
 
  {% for pres in site.presentations %}
