@@ -13,7 +13,24 @@
           <a class="nav-link" href="{{ node.url }}" title="{{ node.title }}"><span class="fa-stack"><i class="fa fa-circle-thin fa-stack-2x"></i><i class="fa fa-{{ node.icon }} fa-stack-1x"></i></span><span class="d-none d-lg-inline"> {{ node.title }}</span></a>
         </li>
   {% endfor %}
-	<li><a href="https://www.linkedin.com/in/arnerossmann/">CV</a></li>
-	<li><a href="http://blog.arne-rossmann.de/">Blog</a></li>
+	<li>
+		<a class="nav-link" href="https://www.linkedin.com/in/arnerossmann/" title="CV">
+			<span class="fa-stack">
+				<i class="fa fa-circle-thin fa-stack-2x"></i>
+				<i class="fa fa-linkedin fa-stack-1x"></i>
+			</span>
+			<span class="d-none d-lg-inline"> CV</span>
+		</a>
+		<a href="https://www.linkedin.com/in/arnerossmann/">CV</a>
+	</li>
+	<li>
+		<a class="nav-link" href="http://blog.arne-rossmann.de" title="Blog">
+			<span class="fa-stack">
+				<i class="fa fa-circle-thin fa-stack-2x"></i>
+				<i class="fa fa-blog fa-stack-1x"></i>
+			</span>
+			<span class="d-none d-lg-inline"> Blog</span>
+		</a>
+	</li>
 	</ul>
 </nav>
