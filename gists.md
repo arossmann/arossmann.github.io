@@ -1,7 +1,7 @@
 ---
 layout: default
-title: Slides
-icon: fab fa-slideshare
+title: Gists
+icon: far fa-file-code
 ---
 
 # GitHub Gists
@@ -9,12 +9,13 @@ icon: fab fa-slideshare
 <ul>
  {% for gist in site.data.gists %}
  <li>
-       <a href="{{ pres.link }}" target="_blank">
-         {{ pres.title }}
+       <h4>
+        <a href="{{ gist.link }}" target="_blank">
+         {{ gist.title }}
        </a>
      </h4>
      <p>
-       {{ pres.description }}
+       {{ gist.description }}
      </p>
 </li>
 {% endfor %}
