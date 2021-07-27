@@ -1,0 +1,18 @@
+- title: Runbook Template
+  link: https://gist.github.com/arossmann/f09ac4625616772622268fdd5747b376
+  description: Template for RunBooks
+- title: Do nothing script (Bash)
+  link: https://gist.github.com/arossmann/a4cfdada4837af2ffb27dd1ef9d82be6
+  description: a do nothing script in Bash
+- title: Do nothing script (Python)
+  link: https://gist.github.com/arossmann/a52b1e1b214d7ab461b93cc862dcb5b0
+  description: a do nothing script in Python
+- title: IKEA Tradfri prshared key 
+  link: https://gist.github.com/arossmann/2a20e137c99b552865c5e749dc56af04
+  description: get preshared key for IKEA Tradfri 
+- title: ADR Template
+  link: https://gist.github.com/arossmann/d2efd2a0e9389f2069c56367f8556ee3
+  description: Template for Architecture Decision Records (ADR)
+- title: Post Mortem template
+  link: https://gist.github.com/arossmann/b3efbac5474add577b4fd6970edb72fc
+  description: A Template for a Post Mortem
