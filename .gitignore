@@ -1,2 +1,4 @@
 _site/
 images/.DS_Store
+.jekyll-cache
+.DS_Store
